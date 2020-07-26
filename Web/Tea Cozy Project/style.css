@@ -1,0 +1,137 @@
+html {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+a {
+	color: seashell;
+}
+
+
+
+header {
+	display: flex;
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	position: sticky;
+	top: 0px;
+	background-color: black;
+	z-index: 1;
+}
+
+.logo {
+	height: 50px;
+	padding: 10px;
+}
+
+.links {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.space {
+	margin: 10px;
+}
+
+.mission {
+	display: block;
+	height: 700px;
+	width: 1200px;
+	margin: auto;
+	background-image: url("./img-mission-background.jpg");
+	
+}
+
+.mission .text {
+	text-align: center;
+	font-weight: 700;
+	width: 100%;
+	background-color: black;
+	border: 1px solid black;
+	height: auto;
+	position: relative;
+	top: 300px;
+}
+
+
+.feature {
+	display: block;
+	margin: auto;
+	max-width: 1010px;
+	text-align: center;
+	justify-content: center;
+}
+
+.feature .text {
+	margin: auto;
+	font-weight: 700;
+}
+
+.teaOfTheMonth {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	justify-content: center;
+}
+
+.tea {
+	margin: 10px;
+}
+
+.tea img {
+	width: 300px;
+	height: 200px;
+}
+
+.tea h4 {
+	margin: 10px;
+}
+
+.locationContainer {
+	display: block;
+	height: 500px;
+	width: 1200px;
+	margin: auto;
+	background-image: url('./img-locations-background.jpg');
+	padding-top: 30px;
+}
+
+.locationContainer .text {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.locationListings {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	justify-content: center;
+}
+
+.location {
+	width: 300px;
+	margin: 20px;
+	background-color: black;
+	opacity: 1.0;
+	text-align: center;
+	}
+
+.contact {
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+.copyright {
+	margin: 20px;
+	text-align: left;
+}
+
+
+
