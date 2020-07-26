@@ -8,6 +8,7 @@ Projects from Codecademy.com that I have completed.
     
 <br>
 <h3>Python</h3>
-  Various examples of data structures in Python code and a Tower of Hanoi game project.
+  <p>Various examples of data structures in Python code and a Tower of Hanoi game project.</p>
+  
   
   
