@@ -1,5 +1,5 @@
 body {
-	background-color: lavenderblush;
+	background-color: lightblue;
 }
 
 header {
@@ -26,7 +26,6 @@ header .coupon {
 
 header .coupon p {
 	font-size: 18px;
-	
 }
 
 header ul {
@@ -41,22 +40,22 @@ header li {
 }
 
 header li a:link {
-	color: black;
+	color: lavenderblush;
 }
 
 header li a:visited {
-	color: black;
+	color: lavenderblush;
 }
 
 .container {
 	display: flex;
 	width: 100%;
-	margin-top: 35px;
 }
 
 .ourStory {
 	display: flex;
 	background-image: url("../images/ourStoryBackground.jpg");
+	background-position: center;
 	width: auto;
 	height: 800px;
 	align-items: center;
@@ -82,7 +81,7 @@ header li a:visited {
 }
 
 .topSellers {
-	background-color: lightblue;
+	
 }
 
 .topSellers h1 {
@@ -100,11 +99,17 @@ header li a:visited {
 	margin: 10px;
 }
 
+.row a:link {
+	color: black;
+	text-decoration-line: none;
+}
+
 .item {
 	margin: 5px;
 	padding: 15px;
 	border: 2mm ridge lightpink;
 	text-align: center;
+	width: 285px;
 }
 
 .item img {
@@ -115,4 +120,76 @@ header li a:visited {
 	text-align: center;
 	font-size: 22px;
 	color: black;
+}
+
+.contact {
+	display: flex;
+	background-image: url("../images/contactBackground.jpg");
+	background-position: center;
+	width: auto;
+	height: 800px;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+
+.contact h1 {
+	text-align: center;
+	color: lavenderblush;
+	width: 100%
+}
+
+.contact a:link {
+	 color: black;
+	 text-decoration-line: none;
+}
+
+.contact a:visited {
+	opacity: 0.75;
+	color: black;
+}
+
+.box {
+	width: 300px;
+	height: 100px;
+	border: 1px dotted black;
+	background-color: lightblue;
+	text-align: center;
+	margin: 10px;
+}
+
+@media screen and (max-width: 1070px) {
+	header .coupon {
+		display: none;
+	}
+	
+	.row {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.contact {
+		flex-direction: column;
+		
+	}
+}
+
+@media screen and (max-width: 850px) {
+	header {
+		display: block;
+		text-align: center;
+	}
+	
+	header ul {
+		justify-content: center;
+		margin: 0px;
+	}
+	
+	header li {
+		margin-top: 0px;
+	}
+	header img {
+		height: 80px;
+	}
 }
