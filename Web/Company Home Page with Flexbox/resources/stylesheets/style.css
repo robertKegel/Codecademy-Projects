@@ -1,0 +1,106 @@
+body {
+	background-color: lavenderblush;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: lightblue;
+	position: sticky;
+	top: 0px;
+	height: auto;
+	width: auto;
+}
+
+header img {
+	height: 150px;
+}
+
+header ul {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+
+header li {
+	display: inline;
+	margin: 10px;
+	font-size: 24px;
+	
+}
+
+header li a:link {
+	color: black;
+}
+
+header li a:visited {
+	color: black;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	margin-top: 35px;
+	
+}
+
+.ourStory {
+	display: flex;
+	background-image: url("../images/ourStoryBackground.jpg");
+	
+	width: auto;
+	height: 800px;
+	align-items: center;
+	justify-content: center;
+}
+
+.ourStory .text {
+	display: block;
+	background-color: lavenderblush;
+	color: lightpink;
+	text-align: center;
+	width: 100%;
+}
+
+.ourStory .text h1 {
+	font-size: 40px;
+}
+
+.ourStory .text p {
+	font-size: 20px;
+	color: black;
+}
+
+.topSellers {
+	background-color: lightblue;
+}
+
+.topSellers h1 {
+	font-size: 40px;
+	padding-top: 40px;
+	text-align: center;
+	color: lavenderblush;
+}
+
+.row {
+	display: flex;
+	flex-flow: row wrap;
+	width: auto;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.item {
+	margin: 25px;
+}
+
+.item img {
+	width: 300px;
+}
+
+.item p {
+	text-align: center;
+	font-size: 22px;
+	color: black;
+}
