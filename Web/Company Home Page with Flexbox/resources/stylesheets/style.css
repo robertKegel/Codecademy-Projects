@@ -5,7 +5,7 @@ body {
 header {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	background-color: lightblue;
 	position: sticky;
 	top: 0px;
@@ -17,17 +17,27 @@ header img {
 	height: 150px;
 }
 
+header .coupon {
+	border: 4px dotted;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}
+
+header .coupon p {
+	font-size: 18px;
+	
+}
+
 header ul {
 	display: flex;
 	align-items: center;
-	margin: 10px;
 }
 
 header li {
-	display: inline;
+	display: flex;
 	margin: 10px;
 	font-size: 24px;
-	
 }
 
 header li a:link {
@@ -42,13 +52,11 @@ header li a:visited {
 	display: flex;
 	width: 100%;
 	margin-top: 35px;
-	
 }
 
 .ourStory {
 	display: flex;
 	background-image: url("../images/ourStoryBackground.jpg");
-	
 	width: auto;
 	height: 800px;
 	align-items: center;
@@ -70,6 +78,7 @@ header li a:visited {
 .ourStory .text p {
 	font-size: 20px;
 	color: black;
+	margin: 20px;
 }
 
 .topSellers {
@@ -92,11 +101,14 @@ header li a:visited {
 }
 
 .item {
-	margin: 25px;
+	margin: 5px;
+	padding: 15px;
+	border: 2mm ridge lightpink;
+	text-align: center;
 }
 
 .item img {
-	width: 300px;
+	width: 275px;
 }
 
 .item p {
