@@ -11,14 +11,17 @@ header {
 	top: 0px;
 	height: auto;
 	width: auto;
+	z-index: 1;
 }
 
 header img {
-	height: 150px;
+	width: 365px;
+	margin: 10px;
 }
 
 header .coupon {
 	border: 4px dotted;
+	border-radius: 5px;
 	text-align: center;
 	padding: 5px;
 	margin: 5px;
@@ -35,7 +38,7 @@ header ul {
 
 header li {
 	display: flex;
-	margin: 10px;
+	margin: 8px;
 	font-size: 24px;
 }
 
@@ -148,9 +151,12 @@ header li a:visited {
 	width: 300px;
 	height: 100px;
 	border: 1px dotted black;
+	border-radius: 10px;
 	background-color: lightblue;
 	text-align: center;
 	margin: 10px;
+	opacity: 0.75;
+	line-height: 14px;
 }
 
 @media screen and (max-width: 1070px) {
@@ -184,6 +190,6 @@ header li a:visited {
 		margin-top: 0px;
 	}
 	header img {
-		height: 80px;
+		width: 185px;
 	}
 }
