@@ -13,25 +13,29 @@ for (box of boxes) {
 }
 
 function contactBoxMouseOver() {
-	increaseContactBox();
+	changeColorContactBox();
 }
 
 function contactBoxMouseOut() {
-	revertContactBox();
+	revertColorContactBox();
 }
 
-function increaseContactBox() {
-	event.target.style.backgroundColor = 'lightpink';
+function changeColorContactBox() {
+	event.target.style.backgroundColor = 'lavenderblush';
 	let children = event.target.children;
 	for (child of children) {
-		child.style.backgroundColor = 'lightpink';
+		child.style.backgroundColor = 'lavenderblush';
 	}
 }
 
-function revertContactBox() {
+function revertColorContactBox() {
 	event.target.style.backgroundColor = 'lightblue';
 	let children = event.target.children;
 	for (child of children) {
 		child.style.backgroundColor = 'lightblue';
 	}
+}
+
+function moveBoxUp() {
+    
 }
