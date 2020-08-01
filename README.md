@@ -6,6 +6,8 @@ Projects from Codecademy.com that I have completed.
     The original project did not include JavaScript.  JS was added after as an experiment.</p>
     
   <p>Company Home Page with Flexbox - An original compay webpage using flexbox.</p>
+  
+  <p>Templating with Handlebars - HTML templates with JS library Handlebars.
     
 <br>
 <h3>Python</h3>
