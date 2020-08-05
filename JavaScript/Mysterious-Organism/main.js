@@ -50,7 +50,7 @@ const pAequorFactory = (specimenNum, dna) => {
         }
       }
       let percentMatch = Math.floor((numMatchBases / thisDNA.length) * 100)
-      //console.log("Specimen " + thisSpecimen + " and Specimen " + thatSpecimen + " have " + percentMatch + "% DNA in common.");
+      console.log("Specimen " + thisSpecimen + " and Specimen " + thatSpecimen + " have " + percentMatch + "% DNA in common.");
       return [percentMatch, thisSpecimen, thatSpecimen];
     },
 

@@ -22,6 +22,7 @@ function contactBoxMouseOut() {
 
 function changeColorContactBox() {
 	event.target.style.backgroundColor = 'lavenderblush';
+    event.target.style.opacity = 1.0;
 	let children = event.target.children;
 	for (child of children) {
 		child.style.backgroundColor = 'lavenderblush';
@@ -29,10 +30,11 @@ function changeColorContactBox() {
 }
 
 function revertColorContactBox() {
-	event.target.style.backgroundColor = 'lightblue';
+	event.target.style.backgroundColor = '';
+    event.target.style.opacity = '';
 	let children = event.target.children;
 	for (child of children) {
-		child.style.backgroundColor = 'lightblue';
+		child.style.backgroundColor = '';
 	}
 }
 
