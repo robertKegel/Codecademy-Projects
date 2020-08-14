@@ -30,14 +30,19 @@ class LinkedList {
     }
     
     pop(){
+        if (this.isEmpty()){return null}
         let current = this._head;
         let previous = null;
+        
         while (current.getNext()){
             previous = current;
             current = current.getNext();
         }
-        previous.setNext(null);
+        if (previous) {previous.setNext(null)};
         this._length -= 1;
+        if (this.isEmpty) {
+            this._head = null;
+        }
         return current;
     }
     
