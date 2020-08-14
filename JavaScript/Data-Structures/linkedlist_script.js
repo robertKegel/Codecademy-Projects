@@ -16,8 +16,8 @@ console.log('adding second node...');
 
 testList.push('second');
 
-console.log('list length: ' + testList.length);
+console.log('list length: ' + testList.getLength);
 
 let testNode = testList.pop();
 
-console.log(testNode.data);
+console.log(testNode.getData);
