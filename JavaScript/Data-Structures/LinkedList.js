@@ -4,19 +4,19 @@ class ListNode {
         this._next = next;
     }
     
-    get data(){
+    getData(){
         return this._data;
     }
     
-    get next(){
+    getNext(){
         return this._next;
     }
     
-    set data(data) {
+    setData(data) {
         this._data = data;
     }
     
-    set next(node) {
+    setNext(node) {
         this._next = node;
     }
     
@@ -28,7 +28,7 @@ class LinkedList {
         this._length = 0;
     }
     
-    get length(){
+    getLength(){
         return this._length;
     }
     
@@ -44,7 +44,7 @@ class LinkedList {
             return this;
         } else {
             let current = this._head;
-            newNode.next = current;
+            newNode.setNext(current);
             this._head = newNode;
             this._length += 1;
             return this;
@@ -54,11 +54,11 @@ class LinkedList {
     pop(){
         let current = this._head;
         let previous = null;
-        while (current.next){
+        while (current.getNext){
             previous = current;
-            current = current.next;
+            current = current.getNext;
         }
-        previous.next(null);
+        previous.setNext(null);
         this._length -= 1;
         return current;
     }
