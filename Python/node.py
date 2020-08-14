@@ -3,10 +3,10 @@ class Node:
     self.value = value
     self.link_node = link_node
     
-  def set_link_node(self, link_node):
+  def set_next_node(self, link_node):
     self.link_node = link_node
     
-  def get_link_node(self):
+  def get_next_node(self):
     return self.link_node
   
   def get_value(self):
