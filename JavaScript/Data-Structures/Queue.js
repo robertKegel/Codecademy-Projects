@@ -11,6 +11,8 @@ class Queue {
     }
     
     push(data){
+        if (this.getLength() === this._limit) {return console.log("Error: Queue full")};
+        
         this._list.push(data);
     }
     
