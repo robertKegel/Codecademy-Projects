@@ -16,7 +16,7 @@ class LinkedList {
     
     push(data) {
         let newNode = new ListNode(data);
-        if (this._head === null) {
+        if (this.isEmpty()) {
             this._head = newNode;
             this._length += 1;
             return this;
@@ -40,6 +40,20 @@ class LinkedList {
         this._length -= 1;
         return current;
     }
+    
+    returnListArray() {
+        let array = [];
+        let current = this._head;
+        
+        while(current){
+            array.push(current.getData());
+            current = current.getNext();
+        }
+        
+        return array;
+    }
+    
+    
 }
 
 module.exports = LinkedList;

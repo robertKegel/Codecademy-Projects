@@ -18,6 +18,11 @@ testList.push('second');
 
 console.log('list length: ' + testList.getLength());
 
-let testNode = testList.pop();
+console.log('adding third node...');
 
-console.log(testNode.getData());
+testList.push('third');
+
+console.log('return list data as an array: ');
+
+console.log(testList.returnListArray());
+
