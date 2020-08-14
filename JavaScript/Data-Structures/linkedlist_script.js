@@ -1,6 +1,6 @@
 
 
-const LinkedList = require('./LinkedList.js');
+const LinkedList = require('./LinkedList');
 
 const testList = new LinkedList();
 

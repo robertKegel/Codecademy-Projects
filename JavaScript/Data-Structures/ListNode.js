@@ -1,24 +1,22 @@
-
-
 class ListNode {
     constructor(data, next=null){
         this._data = data;
         this._next = next;
     }
     
-    get data(){
+    getData(){
         return this._data;
     }
     
-    get next(){
+    getNext(){
         return this._next;
     }
     
-    set data(data){
+    setData(data) {
         this._data = data;
     }
     
-    set next(node){
+    setNext(node) {
         this._next = node;
     }
     
