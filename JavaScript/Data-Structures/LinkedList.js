@@ -54,9 +54,9 @@ class LinkedList {
     pop(){
         let current = this._head;
         let previous = null;
-        while (current.getNext){
+        while (current.getNext()){
             previous = current;
-            current = current.getNext;
+            current = current.getNext();
         }
         previous.setNext(null);
         this._length -= 1;
