@@ -1,30 +1,31 @@
 const ListNode = require('./ListNode');
 
-class Stack{
+class Stack {
+
     constructor(limit=1000){
         this._limit = limit;
         this._length = 0
         this._head = null;
     }
-    
+
     isEmpty(){
         return this._length === 0;
     }
-    
+
     push(data){
-        
-        try{
+
+        try {
             if (this._length === this._limit){
                 throw Error('Stack limit reached!');
             }
-        } catch (e) {
+        } catch (e){
             console.log(e);
             return this;
         }
-        
+
         let newNode = new ListNode(data);
-        
-        if (this.isEmpty()) {
+
+        if (this.isEmpty()){
             this._head = newNode;
             this._length += 1;
             return this;
@@ -38,11 +39,11 @@ class Stack{
     
     pop(){
         
-        try{
+        try {
             if (this.isEmpty()){
                 throw Error('Stack Empty');
             }
-        } catch (e) {
+        } catch (e){
             console.log(e);
             return;
         }
@@ -63,11 +64,11 @@ class Stack{
     
     peek(){
         
-        try{
+        try {
             if (this.isEmpty()){
                 throw Error('Stack Empty');
             }
-        } catch (e) {
+        } catch (e){
             console.log(e);
             return
         }
@@ -75,3 +76,5 @@ class Stack{
         return this._head.getData();
     }
 }
+
+module.exports = Stack;
