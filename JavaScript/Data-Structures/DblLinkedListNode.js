@@ -15,3 +15,5 @@ class DblLinkedNode extends ListNode{
     }
     
 }
+
+module.exports = DblLinkedNode;
