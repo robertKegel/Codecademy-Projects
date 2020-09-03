@@ -14,7 +14,11 @@ class DblLinkedNode extends ListNode{
         this._prev = node;
     }
     
+<<<<<<< HEAD
 }
 
 
 module.exports = DblLinkedNode;
+=======
+}
+>>>>>>> parent of d0df511... Update DblLinkedListNode
