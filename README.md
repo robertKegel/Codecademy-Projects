@@ -7,7 +7,9 @@ Projects from Codecademy.com that I have completed.
     
   <p>Company Home Page with Flexbox - An original compay webpage using flexbox.</p>
   
-  <p>Templating with Handlebars - HTML templates with JS library Handlebars.
+  <p>Templating with Handlebars - HTML templates with JS library Handlebars.</p>
+  
+  <p>Wanderlust - Using fetch, async and await, request information from Foursquare API and OpenWeather API.</p>
     
 <br>
 <h3>Python</h3>
@@ -15,7 +17,9 @@ Projects from Codecademy.com that I have completed.
   
 <br>
 <h3>JavaScript</h3>
-<p>Mysterious Organism - Object factory function to create an organism object with random DNA string.  The objects have methods to mutate a gene in the DNA, compare DNA to another Organism object, return whether the organism is likely to survive based on DNA traits, and finally to return a complement strand of DNA.  A function is also included to compare an array of organisms' DNA with each other and return the highest percentage match.
+<p>Mysterious Organism - Object factory function to create an organism object with random DNA string.  The objects have methods to mutate a gene in the DNA, compare DNA to another Organism object, return whether the organism is likely to survive based on DNA traits, and finally to return a complement strand of DNA.  A function is also included to compare an array of organisms' DNA with each other and return the highest percentage match.</p>
+
+<p>Data Structures in JavaScript - taken from Python folder and translated to JS.
   
   
   
